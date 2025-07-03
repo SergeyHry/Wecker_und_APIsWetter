@@ -102,8 +102,8 @@ Eine einfache Java-Anwendung mit grafischer Benutzeroberfläche (GUI), die dem N
 - Java 8 oder höher
 - Betriebssystem: **Windows**
 - GIF-Datei (`wecker.gif`) im gleichen Verzeichnis wie die `.jar` oder `.class`
-- Optional: `.wav`- oder `.mp3`-Datei für Weckton
-
+- Optional: `.wav`- oder `.mp3`-Datei für Weckton 
+  pfad für Bilder und Sound muss man manuel im code angeben.
 ---
 
 ## 🚀 Anwendung starten
