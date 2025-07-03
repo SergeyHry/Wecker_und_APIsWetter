@@ -71,3 +71,46 @@ achten Sie auf die Rechtschreibung in der Klassen.
 diese App wurde als Test-Projekt etwickelt um mit APIs und JavaFx zu üben und hat keine saubere Struktur.  
 📄 Lizenz
 Dieses Projekt ist zu Lernzwecken erstellt und frei nutzbar. Bitte respektiere die Nutzungsbedingungen der OpenWeatherMap-API.
+
+
+# ⏰ Java Wecker-App für Windows
+
+Eine einfache Java-Anwendung mit grafischer Benutzeroberfläche (GUI), die dem Nutzer erlaubt, einen **Wecker zu stellen**. Wenn die Zeit erreicht ist, wird ein **Signalton abgespielt** und ein **animiertes Wecker-GIF** auf dem Bildschirm angezeigt.
+
+---
+
+## 🧩 Funktionsübersicht
+
+- ⌚ Der Nutzer stellt eine Uhrzeit über ein Panel ein
+- ✅ Nach Klick auf "Bestätigen" läuft der Countdown im Hintergrund
+- 🔔 Zur Weckzeit:
+  - Ein akustisches Signal wird abgespielt
+  - Ein animierter Wecker (`.gif`) erscheint auf dem Desktop
+
+---
+
+## 🖥️ Benutzeroberfläche (GUI)
+
+- Java Swing- oder JavaFX-basiertes Zeit-Eingabefeld
+- Button: "Start"
+- GIF-Anzeige über separates Fenster mit `.gif`
+
+---
+
+## 🔧 Voraussetzungen
+
+- Java 8 oder höher
+- Betriebssystem: **Windows**
+- GIF-Datei (`wecker.gif`) im gleichen Verzeichnis wie die `.jar` oder `.class`
+- Optional: `.wav`- oder `.mp3`-Datei für Weckton
+
+---
+
+## 🚀 Anwendung starten
+
+1. Stelle sicher, dass Java installiert ist.
+2. Starte die App über IDE oder Terminal:
+
+   ```bash
+   java -jar RemindeMe.jar
+
