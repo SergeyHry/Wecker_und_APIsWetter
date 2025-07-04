@@ -10,8 +10,8 @@ import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
 
 public class WeatherService {
-	 private static final String API_KEY = "71905ac5276660b556ee382b6d82e187";
-	 private static final String BASE_URL = "https://api.openweathermap.org/data/2.5/weather?q=%s&units=metric&appid=%s";
+	 private static final String API_KEY = "Hier muss dein API-Key";
+	 private static final String BASE_URL = "https://api.openweathermap.org";
 
 	 public static String getWeather(String city) {
 		    try {
